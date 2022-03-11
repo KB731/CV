@@ -1,0 +1,81 @@
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+
+
+html{
+    background-color: #DAE5ED;
+}
+h1{
+    color: #8D1122;
+    text-align: center;
+}
+footer{
+    background-color: #8D1122;
+}
+h2{
+    text-decoration: underline #0061C2;
+    color: #0061C2;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+.Red_text{
+    color:#8D1122;
+}
+#logotype{
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.margin1{
+    margin-left: 65px;
+}
+.margin2{
+    margin-left: 105px;
+}
+ul{ 
+    list-style: none; 
+    padding: 0px;
+    }
+ul li::before {  
+    content: "\2022";
+    color: #8D1122;
+    } 
+.center{
+    text-align: center;
+}
+.fas{
+    font-size: 100px;
+    width: 150px;
+}
